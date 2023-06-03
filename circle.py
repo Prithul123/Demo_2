@@ -4,8 +4,6 @@ for x in range(int(input())):
 
 best_list = []
 for x in range(len(nums)):
-    
-    #for y in range(x):
     thing = nums[0]
     nums.remove(nums[0])
     nums.insert(len(nums), thing)
